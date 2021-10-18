@@ -1,0 +1,13 @@
+[
+        {"id":1, "name":"Ambika",    "Email":"ambika@gmail.com",   "Phone":1234567890,  "Password":"abc@123",   "Age":20 ,  "DOB":"11-01-2000"},
+        {"id":2, "name":"Prasad",    "Email":"prasad@gmail.com",    "Phone":6729792299, "Password":"abc@123",   "Age":21,   "DOB":"30-08-2002"},
+        {"id":3, "name":"Gayatri",   "Email":"gayatri@gmail.com",   "Phone":1321432424, "Password":"abc@123",   "Age":22,   "DOB":"05-05-2000"},
+        {"id":4, "name":"Deepak",    "Email":"deepak@gmail.com",    "Phone":9230232003, "Password":"abc@123",   "Age":23,   "DOB":"19-11-1999"},
+        {"id":5, "name":"Archana",   "Email":"archana@gmail.com",   "Phone":1232322333, "Password":"abc@123",   "Age":24,   "DOB":"28-03-2000"},
+        {"id":6, "name":"Chaitanya", "Email":"chaitanaya@gmail.com","Phone":6949054523, "Password":"abc@123",   "Age":25,   "DOB":"17-07-2000"},
+        {"id":7, "name":"Suchit",    "Email":"suchit@gmail.com",    "Phone":8910123893, "Password":"abc@123",   "Age":26,   "DOB":"16-11-1999"},
+        {"id":8, "name":"Sudarshan", "Email":"sudarshan@gmail.com", "Phone":8934343242, "Password":"abc@123",   "Age":27,   "DOB":"17-08-2001"},
+        {"id":9, "name":"Dipti",     "Email":"dipti@gmail.com",     "Phone":2234555653, "Password":"abc@123",   "Age":28,   "DOB":"11-01-2000"},
+        {"id":10,"name":"Kapil",    "Email":"kapil@gmail.com",      "Phone":2932931334, "Password":"abc@123",   "Age":29,   "DOB":"14-10-1999"}
+    
+]
