@@ -3,7 +3,7 @@ import Navigate from './Navigate'
 import { BrowserRouter as Router, Route, Switch,Redirect} from 'react-router-dom';
 import Sidebar from './Sidebar'
 import Sign from './Sign'
-import Change from './Change'
+
 
 class Dashboard extends Component {
     constructor(props){
@@ -23,14 +23,8 @@ class Dashboard extends Component {
         }
         return (
             <>
-                <Router>
-                    <Navigate />
-                    <Sidebar />
-                    <Switch>
-                        <Route path="/Sign" exact component={Sign} />
-                        <Route path="/Change" exact Component={Change}/>
-                    </Switch>
-                </Router>
+            <Navigate/>
+            <Sidebar/>
              </>
         )
     }

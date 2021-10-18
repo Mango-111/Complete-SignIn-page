@@ -7,12 +7,11 @@ import Change from './components/Change'
 function App() {
   return (
       <Router>
-        <Sign/>
-        {/* <Change/> */}
         <Switch>
-          <Route path="/" exact Component={Sign}/>
+          <Route path="/" exact component={Sign}/>
           <Route path="/Dashboard" exact component={Dashboard} />
-          {/* <Route path="/Change" exact Component={Change}/> */}
+          <Route path="/Change" exact component={Change} />
+          <Route path="/Sign" exact component={Sign} />
         </Switch>
       </Router>
   );

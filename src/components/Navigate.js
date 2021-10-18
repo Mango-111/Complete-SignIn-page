@@ -8,6 +8,7 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
+import Change from "./Change"
 
 class Navigate extends Component {
   constructor(props){
@@ -25,7 +26,7 @@ class Navigate extends Component {
     return (
       <>
         <Box>
-          <AppBar position="fixed">
+          <AppBar position="static">
             <Toolbar>
               <IconButton
                 size="large"
@@ -39,7 +40,8 @@ class Navigate extends Component {
               <Typography variant="h6" component="div" sx={{ mr:5}} >
                 Home
               </Typography>
-              <Button color="inherit" href="/Change" size="large" sx={{ mr: 5}}> Change Password
+              <Button color="inherit" size="large" sx={{ mr: 5}}>
+                <Link to="/Change" style={{color:"white"}}> Change Password</Link>
               </Button>
               <Typography variant="h6" component="div" sx={{ mr: 5}} >
                 Welcome:
